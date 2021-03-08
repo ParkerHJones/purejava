@@ -31,7 +31,7 @@ var answerOne = 15 % 4;
 alert (answerOne); //chapter 5 math expressions 
 
 var num = 1; // chapter 6 
-var newNum = ++num; // this adds one to var num
+var newNum = ++num; // this adds one to var num displays 2
 alert (newNum);  // chapter 6 unfamiliar expression
 
 // chapter 7 
@@ -45,12 +45,22 @@ alert (totalThree);
 alert (totalFour); // chapter 7 
 
 // chapter 8
+var userName = "iPOD"; // needs to be above alert or will return "undefined for userName"
 alert ("Your welcome, " + userName + "!");
-var userName = "iPOD"; 
 var header = "Two"; 
 var customAlert = userName + header; 
 alert(customAlert); //concatenation 
 
 alert("1" + "1"); // displays 11 
 // chapter 8 
+
+// chapter 9 prompt code 
+var question = "Your favorite color?";
+var defAnswer = "Blue";
+var output = prompt(question, defAnswer); 
+
+var numberofDogs = prompt("How many dogs do you have?");
+var toomanyDogs = numberofDogs + 1; 
+// chapter 9 
+
 
