@@ -57,10 +57,11 @@ alert("1" + "1"); // displays 11
 // chapter 9 prompt code 
 var question = "Your favorite color?";
 var defAnswer = "Blue";
-var output = prompt(question, defAnswer); 
+var output = prompt(question, defAnswer);  //displays prompt with question and answer Blue already there
 
 var numberofDogs = prompt("How many dogs do you have?");
 var toomanyDogs = numberofDogs + 1; 
+alert (toomanyDogs); // displays whatever number input with one added to the end of it
 // chapter 9 
 
 
