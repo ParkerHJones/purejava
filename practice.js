@@ -43,3 +43,14 @@ alert (total);
 alert (totalTwo);
 alert (totalThree);
 alert (totalFour); // chapter 7 
+
+// chapter 8
+alert ("Your welcome, " + userName + "!");
+var userName = "iPOD"; 
+var header = "Two"; 
+var customAlert = userName + header; 
+alert(customAlert); //concatenation 
+
+alert("1" + "1"); // displays 11 
+// chapter 8 
+
