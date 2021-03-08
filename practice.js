@@ -32,4 +32,14 @@ alert (answerOne); //chapter 5 math expressions
 
 var num = 1; // chapter 6 
 var newNum = ++num; // this adds one to var num
-alert (newNum);  // chapter 6 unfamiliar expression 
+alert (newNum);  // chapter 6 unfamiliar expression
+
+// chapter 7 
+var total = 3 + (8 * 8); // = 67
+var totalTwo = (4 + 4) * 4; // = 32
+var totalThree = ((1 * 3) * 4) + 5 // = 17
+var totalFour = (5 * 5) - (6 / 2) // = 22
+alert (total);
+alert (totalTwo);
+alert (totalThree);
+alert (totalFour); // chapter 7 
