@@ -76,18 +76,55 @@ if (goat === "bad bunny") {
 // === is a comparison operator
 // there are various other ones
 
-// chapter 12 if else..else if
-var x = prompt("Where is Bad Bunny from?");
-if (x === "puerto rico") {
-    alert ("BUEN HECHO!");
-}
-// if (x !== "puerto rico"){ 
-    else if (x === "Puerto Rico") {
-    alert("LO ESCRIBISTE MAL");
-}
-else { 
-    alert("TE EQUIVOCASTE")
-}
+// // chapter 12 if else..else if
+// var x = prompt("Where is Bad Bunny from?");
+// if (x === "puerto rico") {
+//     alert ("BUEN HECHO!");
+// }
+// // if (x !== "puerto rico"){ 
+//     else if (x === "Puerto Rico") {
+//     alert("LO ESCRIBISTE MAL");
+// }
+// else { 
+//     alert("TE EQUIVOCASTE")
+// }
 
-// chapter 13 
+// // chapter 13 
+// var birthDate = prompt("What is Bad Bunny's Birthday?");
+// var age = prompt("What is Bad Bunny's age?"); 
+// if (birthDate === "March 10th 1994" && age === "27") {
+//     alert ("CORRECTO"); 
+// }
+// else {
+//     alert("TU NO SABES NADA"); 
+// }
 
+// var albums = prompt("How many albums does he have?"); 
+// if (albums >= "5" || albums < "6") {
+//  alert ("SIIII");
+// }
+// // chapter 13 
+
+// chapter 14 complicated jaja
+
+// chapter 15 Arrays
+var album1 = "x 100pre";
+var album2 = "OASIS";
+var album3 = "YHLQMDLG";
+var album4 = "Las que no iban a salir";
+var album5 = "El Ultimo Tour Del Mundo"; 
+
+alert ("His first album was " + album1);
+
+var albums = ["x 100pre", "OASIS", "YHLQMDLG", "Las que no iban a salir", 
+"El Ultimo Tour Del Mundo"
+]; 
+
+alert ("His second album was " + albums[1]);
+
+var benitoInfo = ["Benito Antonio Martinez Ocasio", "27 Years Old", "From Puerto Rico",
+"First album X 100pre", "Has two brothers"
+];
+
+alert (benitoInfo); // must put [x] to display specific element in array
+// chapter 15
