@@ -65,10 +65,10 @@
 // // chapter 9 
 
 // chapter 10 IF STATEMENTS
-var goat = prompt("Who is GOAT in reggaeton?");
-if (goat === "bad bunny") {
-    alert ("YA TU SABES"); 
-}
+// var goat = prompt("Who is GOAT in reggaeton?");
+// if (goat === "bad bunny") {
+//     alert ("YA TU SABES"); 
+// }
 // simple if statement 
 // chapter 10
 
@@ -107,24 +107,53 @@ if (goat === "bad bunny") {
 
 // chapter 14 complicated jaja
 
-// chapter 15 Arrays
-var album1 = "x 100pre";
-var album2 = "OASIS";
-var album3 = "YHLQMDLG";
-var album4 = "Las que no iban a salir";
-var album5 = "El Ultimo Tour Del Mundo"; 
+// // chapter 15 Arrays
+// var album1 = "x 100pre";
+// var album2 = "OASIS";
+// var album3 = "YHLQMDLG";
+// var album4 = "Las que no iban a salir";
+// var album5 = "El Ultimo Tour Del Mundo"; 
 
-alert ("His first album was " + album1);
+// alert ("His first album was " + album1);
 
-var albums = ["x 100pre", "OASIS", "YHLQMDLG", "Las que no iban a salir", 
-"El Ultimo Tour Del Mundo"
-]; 
+// var albums = ["x 100pre", "OASIS", "YHLQMDLG", "Las que no iban a salir", 
+// "El Ultimo Tour Del Mundo"
+// ]; 
 
-alert ("His second album was " + albums[1]);
+// alert ("His second album was " + albums[1]);
 
-var benitoInfo = ["Benito Antonio Martinez Ocasio", "27 Years Old", "From Puerto Rico",
-"First album X 100pre", "Has two brothers"
-];
+// var benitoInfo = ["Benito Antonio Martinez Ocasio", "27 Years Old", "From Puerto Rico",
+// "First album X 100pre", "Has two brothers"
+// ];
 
-alert (benitoInfo); // must put [x] to display specific element in array
-// chapter 15
+// alert (benitoInfo); // must put [x] to display specific element in array
+// // chapter 15
+
+// chapter 16 arrays adding and removing 
+var tracklistX100pre = [];
+tracklistX100pre[0] = "Ni Bien Ni Mal";
+tracklistX100pre[1] = "200 mph"; 
+tracklistX100pre[2] = "Quien tu eres?"; 
+alert (tracklistX100pre); 
+// chapter 16 
+
+// chapter 17 adding and removing elements 
+// splices will come back if needed
+
+// chapter 18
+var favoriteTrack = prompt ("What is your favorite badbunny track?")
+// if (favoriteTrack === tracklistX100pre[1]) {
+//     alert("This track is on X 100pre")
+// }
+// else {
+//     alert("This is not on X 100pre")
+// }
+
+for (var i = 0; i<= 0; i++) {
+    if (favoriteTrack === tracklistX100pre[i]) {
+        alert("This song is on X 100pre");
+    }
+    else {
+        alert("This song is not on X 100pre"); 
+    }
+}
