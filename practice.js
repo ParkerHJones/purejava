@@ -131,10 +131,10 @@
 
 // chapter 16 arrays adding and removing 
 var tracklistX100pre = [];
-tracklistX100pre[0] = "Ni Bien Ni Mal";
+tracklistX100pre[0] = "ni bien ni mal";
 tracklistX100pre[1] = "200 mph"; 
-tracklistX100pre[2] = "Quien tu eres?"; 
-alert (tracklistX100pre); 
+tracklistX100pre[2] = "quien tu eres"; 
+// alert (tracklistX100pre); 
 // chapter 16 
 
 // chapter 17 adding and removing elements 
@@ -142,6 +142,7 @@ alert (tracklistX100pre);
 
 // chapter 18
 var favoriteTrack = prompt ("What is your favorite badbunny track?")
+favoriteTrack = favoriteTrack.toLowerCase(); // chapter 21 to make it possible if entered different
 // if (favoriteTrack === tracklistX100pre[1]) {
 //     alert("This track is on X 100pre")
 // }
@@ -149,11 +150,39 @@ var favoriteTrack = prompt ("What is your favorite badbunny track?")
 //     alert("This is not on X 100pre")
 // }
 
-for (var i = 0; i<= 0; i++) {
+// for (var i = 0; i<= 0; i++) {
+//     if (favoriteTrack === tracklistX100pre[i]) {
+//         alert("This song is on X 100pre");
+//     }
+//     else {
+//         alert("This song is not on X 100pre"); 
+//     }
+// }
+
+// chapter 19 for loops flags boolenas array length and loopus 
+// boolean values false and true
+var numTracks = tracklistX100pre.length; 
+var trackFound = false; 
+for (var i = 0; i< numTracks; i++) {
     if (favoriteTrack === tracklistX100pre[i]) {
+        trackFound = true; 
         alert("This song is on X 100pre");
-    }
-    else {
-        alert("This song is not on X 100pre"); 
+        break; // this stops the loop
     }
 }
+    if (trackFound === false) {
+        alert("This song is not on X 100pre"); 
+    }
+// chapter 19 
+
+// chapter 20 
+// var firstNames = ["Daddy ", "Nicky ", "Bad ", "Myke "]; 
+// var lastNames = ["Yankee ", "Jam ", "Bunny ", "Towers "]; 
+// var fullNames = []; 
+// for (var i = 0; i <first-fullNames.length; i++) {
+//     for (var j = 0; j < last-fullNames.length; j++) {
+//         fullNames.push(firstNames[i] + lastNames[j]); 
+//     }
+// }
+// alert (fullNames); 
+// chapter 20 
