@@ -186,3 +186,20 @@ for (var i = 0; i< numTracks; i++) {
 // }
 // alert (fullNames); 
 // chapter 20 
+
+// chapter 22 slice method
+var firstChar = trackToCheck.slice(0, 1); 
+var otherChars = trackToCheck.slice(1); 
+firstChar = firstChar.toUpperCase(); 
+otherChars = otherChars.toLowerCase(); 
+var cappedTrack = firstChar + other-Chars; 
+// chapter 22 
+
+// chapter 23 will come back to when useful 
+// chapter 23
+
+// chapter 24 
+var eighthTrack = "Si Estuviesemos Juntos"; 
+var firstLetra = eighthTrack.charAt(0); 
+alert (eighthTrack); 
+// chapter 24 
