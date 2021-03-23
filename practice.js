@@ -130,10 +130,12 @@
 // // chapter 15
 
 // chapter 16 arrays adding and removing 
-var tracklistX100pre = [];
-tracklistX100pre[0] = "ni bien ni mal";
-tracklistX100pre[1] = "200 mph"; 
-tracklistX100pre[2] = "quien tu eres"; 
+// var tracklistX100pre = [];
+// tracklistX100pre[0] = "ni bien ni mal";
+// tracklistX100pre[1] = "200 mph"; 
+// tracklistX100pre[2] = "quien tu eres"; 
+// tracklistx100pre[3] = "caro";
+// tracklistX100pre[4] = "tenemos que hablar"; 
 // alert (tracklistX100pre); 
 // chapter 16 
 
@@ -141,8 +143,8 @@ tracklistX100pre[2] = "quien tu eres";
 // splices will come back if needed
 
 // chapter 18
-var favoriteTrack = prompt ("What is your favorite badbunny track?")
-favoriteTrack = favoriteTrack.toLowerCase(); // chapter 21 to make it possible if entered different
+// var favoriteTrack = prompt ("What is your favorite badbunny track?")
+// favoriteTrack = favoriteTrack.toLowerCase(); // chapter 21 to make it possible if entered different
 // if (favoriteTrack === tracklistX100pre[1]) {
 //     alert("This track is on X 100pre")
 // }
@@ -161,18 +163,18 @@ favoriteTrack = favoriteTrack.toLowerCase(); // chapter 21 to make it possible i
 
 // chapter 19 for loops flags boolenas array length and loopus 
 // boolean values false and true
-var numTracks = tracklistX100pre.length; 
-var trackFound = false; 
-for (var i = 0; i< numTracks; i++) {
-    if (favoriteTrack === tracklistX100pre[i]) {
-        trackFound = true; 
-        alert("This song is on X 100pre");
-        break; // this stops the loop
-    }
-}
-    if (trackFound === false) {
-        alert("This song is not on X 100pre"); 
-    }
+// var numTracks = tracklistX100pre.length; 
+// var trackFound = false; 
+// for (var i = 0; i< numTracks; i++) {
+//     if (favoriteTrack === tracklistX100pre[i]) {
+//         trackFound = true; 
+//         alert("This song is on X 100pre");
+//         break; // this stops the loop
+//     }
+// }
+//     if (trackFound === false) {
+//         alert("This song is not on X 100pre"); 
+//     }
 // chapter 19 
 
 // chapter 20 
@@ -188,18 +190,44 @@ for (var i = 0; i< numTracks; i++) {
 // chapter 20 
 
 // chapter 22 slice method
-var firstChar = trackToCheck.slice(0, 1); 
-var otherChars = trackToCheck.slice(1); 
-firstChar = firstChar.toUpperCase(); 
-otherChars = otherChars.toLowerCase(); 
-var cappedTrack = firstChar + other-Chars; 
+// var firstChar = trackToCheck.slice(0, 1); 
+// var otherChars = trackToCheck.slice(1); 
+// firstChar = firstChar.toUpperCase(); 
+// otherChars = otherChars.toLowerCase(); 
+// var cappedTrack = firstChar + other-Chars; 
 // chapter 22 
 
 // chapter 23 will come back to when useful 
 // chapter 23
 
-// chapter 24 
-var eighthTrack = "Si Estuviesemos Juntos"; 
-var firstLetra = eighthTrack.charAt(0); 
-alert (eighthTrack); 
-// chapter 24 
+// chapter 24 finding characters in certain spots 
+// var eighthTrack = "Si Estuviesemos Juntos"; 
+// var firstLetra = eighthTrack.charAt(0); 
+// alert (eighthTrack); 
+// chapter 24 come back to when useful. 
+
+// chapter 25 
+
+var newText = text.replace("Dinero", "Billete"); 
+var plata = prompt("Como se dice plata?");
+if (plata === "Dinero") {
+     alert (newText) }
+else {
+    alert ("Dicimos billete")
+}
+// chapter 25
+
+// chapter 26 
+var numberOfStars = Math.round(score-Avg); 
+var scoreAvg = Math.ceil(.000003); // rounds number up
+var testAvg = Math.floor(.00004); // rounds number down 
+alert (scoreAvg); 
+alert (testAvg); 
+// chapter 26 
+
+// chapter 27 
+var randomNumber = Math.random(); 
+var bigDecimal = Math.random (); 
+var improvedNum = (bigDecimal * 6) + 1; 
+var numberOfStars = Math.floor(improvedNum); 
+// chapter 27 
