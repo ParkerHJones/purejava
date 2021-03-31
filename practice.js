@@ -207,27 +207,53 @@
 // chapter 24 come back to when useful. 
 
 // chapter 25 
-
-var newText = text.replace("Dinero", "Billete"); 
-var plata = prompt("Como se dice plata?");
-if (plata === "Dinero") {
-     alert (newText) }
-else {
-    alert ("Dicimos billete")
-}
+// var favoriteAlbum = prompt("Cual album es tu favorito de Bad Bunny?");
+// var newText = text.replace("YHLQMDLG"); 
+// if (favoriteAlbum === "YHLQMDLG") {
+//      alert ("Yo Hago Lo Que Me Da La Gana") }
+// else {
+//     alert ("Que chevere")
+// }
 // chapter 25
 
 // chapter 26 
-var numberOfStars = Math.round(score-Avg); 
-var scoreAvg = Math.ceil(.000003); // rounds number up
-var testAvg = Math.floor(.00004); // rounds number down 
-alert (scoreAvg); 
-alert (testAvg); 
+// var numberOfStars = Math.round(score-Avg); 
+// var scoreAvg = Math.ceil(.000003); // rounds number up
+// var testAvg = Math.floor(.00004); // rounds number down 
+// alert (scoreAvg); 
+// alert (testAvg); 
 // chapter 26 
 
 // chapter 27 
-var randomNumber = Math.random(); 
-var bigDecimal = Math.random (); 
-var improvedNum = (bigDecimal * 6) + 1; 
-var numberOfStars = Math.floor(improvedNum); 
+// var randomNumber = Math.random(); 
+// var bigDecimal = Math.random (); 
+// var improvedNum = (bigDecimal * 6) + 1; 
+// var numberOfStars = Math.floor(improvedNum); 
 // chapter 27 
+
+// chapter 28 
+// alert (soyPeor); 
+// var soyPeor = prompt("What is Badbunny's first single?"); 
+// chapter 28 
+
+// chapter 29
+// var integerString = "24"; // converts string to number 
+// var numOne = Number(integerString); 
+// alert  (numOne); 
+
+// var floatingNumString = "24.9876"; // converts string to number
+// var num = Number(floatingNumString); 
+// alert (num); 
+
+// var numberAsNumber = 7777; 
+// var numberAsString = numberAsNumber.toString(); 
+// alert (numberAsString); 
+// chapter 29 
+
+// chapter 30 
+// var prettyTotal = total.toFixed(2); //rounds number two decimal places
+// var currencyTotal = 17.4332; 
+// chapter 30
+
+
+
