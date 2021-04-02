@@ -256,8 +256,11 @@
 // chapter 30
 
 // chapter 31 
-var today = new Date(); //
-alert (today); //
+// var today = new Date(); //
+// alert (today); //
 // chapter 31 date and time 
 
+// chapter 32 
+var hour = d.getHours(); 
+alert (hour); 
 // chapter 32 
