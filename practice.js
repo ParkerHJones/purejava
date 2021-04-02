@@ -255,5 +255,9 @@
 // var currencyTotal = 17.4332; 
 // chapter 30
 
+// chapter 31 
+var today = new Date(); //
+alert (today); //
+// chapter 31 date and time 
 
-
+// chapter 32 
