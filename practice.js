@@ -261,6 +261,15 @@
 // chapter 31 date and time 
 
 // chapter 32 
-var hour = d.getHours(); 
-alert (hour); 
+// var hour = d.getHours(); 
+// alert (hour); 
 // chapter 32 
+
+// chapter 33
+var day = new Date("June 8th 2030"); 
+// chapter 33
+
+// chapter 34 
+var d = new Date(); 
+d.setFullYear(2001); 
+// chapter 34
