@@ -266,10 +266,28 @@
 // chapter 32 
 
 // chapter 33
-var day = new Date("June 8th 2030"); 
+// var day = new Date("");
+// alert (day); 
 // chapter 33
 
 // chapter 34 
-var d = new Date(); 
-d.setFullYear(2001); 
+// var d = new Date(); 
+// d.setFullYear(2001); 
 // chapter 34
+
+//chapter 35 
+// var now = new Date ();
+// var theHr = now.getHours();
+// var theMin = now.getMinutes();
+// alert ("time: " + theHr + ":" + theMin); 
+
+// function tellTime() {
+
+//     var now = new Date();
+//     var theHr = now.getHours();
+//     var theMin = now.getMinutes();
+//     alert("Current time: "+ theHr + ":" + theMin);
+
+// }
+// chapter 35
+
